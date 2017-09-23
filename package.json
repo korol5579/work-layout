@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/korol5579/work-layout/issues"
   },
-  "homepage": "https://github.com/korol5579/work-layout#readme"
+  "homepage": "https://github.com/korol5579/work-layout#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  }
 }
