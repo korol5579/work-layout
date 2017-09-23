@@ -24,6 +24,7 @@ header .h-bottom-line ul {
   margin-left: 189px;
 }
 header ul {
+  margin-bottom: 0;
   list-style-type: none;
 }
 header ul li {
@@ -46,9 +47,35 @@ header .h-ad-banner {
 img {
   max-width: 100%;
 }
+#main .main-content-wrapper {
+  max-width: 906px;
+  border: 1px solid #cfcfcf;
+  margin: 20px auto 30px;
+  padding: 25px 25px 30px 30px;
+}
+#main .main-content-wrapper .main-content-article {
+  border-bottom: 1px solid #cfcfcf;
+}
+#main .main-content-wrapper .main-content-article .orange {
+  background-color: #ff5100;
+  padding: 5px;
+  color: #fff;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#main .main-content-wrapper h2 {
+  font-size: 25px;
+}
 article ul {
   list-style-type: none;
 }
 article ul li {
   display: inline-block;
+}
+.right-side-bar {
+  background: #ebedeb;
+  min-width: 200px;
+  height: 3000px;
+  border-left: 1px solid #cfcfcf;
 }
