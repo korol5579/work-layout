@@ -1,0 +1,36 @@
+header .h-top-line {
+  background-color: #000000;
+  min-height: 25px;
+  padding: 1px;
+}
+header .h-top-line .geo-nav {
+  float: left;
+}
+header .h-top-line .user-nav {
+  float: right;
+}
+header .h-bottom-line {
+  background-color: #3a3a43;
+  position: relative;
+  min-height: 50px;
+}
+header ul li {
+  display: inline-block;
+}
+header a {
+  color: #b9b9c3;
+}
+header .site-logo {
+  width: 200px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+header .h-ad-banner {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+img {
+  max-width: 100%;
+}
