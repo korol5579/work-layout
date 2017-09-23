@@ -1,10 +1,15 @@
 header .h-top-line {
   background-color: #000000;
-  min-height: 25px;
+  min-height: 32px;
   padding: 1px;
+  font-size: 12px;
+  padding-top: 8px;
 }
 header .h-top-line .geo-nav {
   float: left;
+}
+header .h-top-line .geo-nav a {
+  margin-right: 20px;
 }
 header .h-top-line .user-nav {
   float: right;
@@ -13,6 +18,13 @@ header .h-bottom-line {
   background-color: #3a3a43;
   position: relative;
   min-height: 50px;
+  padding-top: 10px;
+}
+header .h-bottom-line ul {
+  margin-left: 189px;
+}
+header ul {
+  list-style-type: none;
 }
 header ul li {
   display: inline-block;
@@ -33,4 +45,10 @@ header .h-ad-banner {
 }
 img {
   max-width: 100%;
+}
+article ul {
+  list-style-type: none;
+}
+article ul li {
+  display: inline-block;
 }
