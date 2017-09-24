@@ -1,3 +1,16 @@
+#s-main-article {
+  overflow: auto;
+}
+.m-content {
+  float: left;
+  width: calc(100% - 250px);
+  -moz-calc-width: calc(100% - 250px);
+  -webkit-calc-width: calc(100% - 250px);
+}
+.right-side-bar {
+  float: right;
+  width: 250px;
+}
 header .h-top-line {
   background-color: #000000;
   min-height: 32px;
@@ -48,10 +61,11 @@ img {
   max-width: 100%;
 }
 #main .main-content-wrapper {
-  max-width: 906px;
+  max-width: 948px;
+  /* actual 976px; */
   border: 1px solid #cfcfcf;
   margin: 20px auto 30px;
-  padding: 25px 25px 30px 30px;
+  padding: 25px;
 }
 #main .main-content-wrapper .main-content-article {
   border-bottom: 1px solid #cfcfcf;
