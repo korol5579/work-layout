@@ -205,6 +205,13 @@ article ul li {
   height: 3000px;
   border-left: 1px solid #cfcfcf;
 }
+.right-side-bar .container {
+  margin-top: 20px;
+}
+.right-side-bar .content {
+  border-bottom: 1px solid #cfcfcf;
+  margin-bottom: 15px;
+}
 .other-stock a {
   color: #424242;
 }
