@@ -60,25 +60,32 @@ header .h-ad-banner {
 img {
   max-width: 100%;
 }
+#main .wrapper {
+  max-width: 948px;
+  margin: 0 auto;
+}
 #main .main-content-wrapper {
   max-width: 948px;
-  /* actual 976px; */
   border: 1px solid #cfcfcf;
   margin: 20px auto 30px;
   padding: 25px;
 }
 #main .main-content-wrapper .row {
-  border-bottom: 1px solid #cfcfcf;
   padding-bottom: 75px;
+}
+#main .main-content-wrapper .main-content-article {
+  border-bottom: 1px solid #cfcfcf;
+  min-height: 888px;
 }
 #main .main-content-wrapper .main-content-article .main-article-description span {
   display: block;
   background-color: #62c741;
   color: #fff;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   padding: 10px;
   float: right;
+  border-radius: 4px;
 }
 #main .main-content-wrapper .main-content-article .orange {
   background-color: #ff5100;
@@ -108,6 +115,12 @@ article ul li {
   height: 3000px;
   border-left: 1px solid #cfcfcf;
 }
-section .other-stock {
-  max-width: 50%;
+.other-stock .card {
+  height: 380px;
+  margin-bottom: 25px;
+  overflow-x: hidden;
+  border: 1px;
+}
+.other-stock .card img {
+  height: 200px;
 }

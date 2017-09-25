@@ -82,19 +82,25 @@ img {
 
 #main {
 
+    .wrapper {
+        max-width: 948px;
+        margin: 0 auto;
+    }
+
     .main-content-wrapper {
         max-width: 948px;
-        /* actual 976px; */
         border: 1px solid #cfcfcf;
         margin: 20px auto 30px;
         padding: 25px;
 
         .row {
-            border-bottom: 1px solid #cfcfcf;
+
             padding-bottom: 75px;
         }
 
         .main-content-article {
+            border-bottom: 1px solid #cfcfcf;
+            min-height: 888px;
 
             .main-article-description {
                 span {
@@ -102,9 +108,10 @@ img {
                     background-color: #62c741;
                     color: #fff;
                     font-weight: 600;
-                    font-size: 16px;
+                    font-size: 15px;
                     padding: 10px;
                     float: right;
+                    border-radius: 4px;
                 }
             }
 
@@ -146,8 +153,17 @@ article {
     border-left: 1px solid #cfcfcf;
 }
 
-section {
-	.other-stock {
-		max-width: 50%;
-	}
+
+.other-stock {
+
+    .card {
+        height: 380px;
+        margin-bottom: 25px;
+        overflow-x: hidden;
+        border: 1px;
+
+        img {
+            height: 200px;
+        }
+    }
 }
