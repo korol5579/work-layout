@@ -12,11 +12,29 @@
   width: 250px;
 }
 header .h-top-line {
-  background-color: #000000;
+  background-color: #000;
   min-height: 32px;
   padding: 1px;
   font-size: 12px;
   padding-top: 8px;
+}
+header .h-top-line .icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+}
+header .h-top-line .icon-login {
+  background-image: url(img/header-icons.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 5px;
+}
+header .h-top-line a:hover {
+  color: #fff;
 }
 header .h-top-line li.active a {
   color: #fff;
@@ -105,8 +123,7 @@ img {
 #main .main-content-wrapper .bread-crumbs a {
   color: #0072be;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
 }
 #main .main-content-wrapper .row {
   padding-bottom: 75px;
@@ -124,9 +141,10 @@ img {
   background-color: #62c741;
   color: #fff;
   font-weight: 600;
-  font-size: 15px;
-  padding: 10px;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
   border-radius: 4px;
+  margin-left: 10px;
 }
 #main .main-content-wrapper .h2 {
   font-size: 25px;
