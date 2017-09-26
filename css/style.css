@@ -16,6 +16,8 @@
   height: 15px;
   background-image: url(../img/header-icons.png);
   display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
 }
 .icon-edit {
   background-position: -51px 0;
@@ -30,6 +32,7 @@
   background-position: 0px 26px;
   width: 18px;
   height: 26px;
+  vertical-align: sub;
 }
 header .h-top-line {
   background-color: #000;
@@ -67,7 +70,7 @@ header .h-bottom-line {
   background-color: #3a3a43;
   position: relative;
   min-height: 50px;
-  padding-top: 5px;
+  padding-top: 10px;
   min-width: 1000px;
 }
 header .h-bottom-line .absolut-logo:hover {
@@ -88,7 +91,8 @@ header .h-bottom-line .special-offer a {
 }
 header .h-bottom-line a {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 700;
 }
 header .h-bottom-line ul {
   margin-left: 170px;
@@ -140,6 +144,41 @@ img {
   max-width: 948px;
   margin: 0 auto;
 }
+#main .more-stock {
+  margin-top: 27px;
+  margin-bottom: 21px;
+  margin-left: 10px;
+}
+#main .stock-article .stock-date-time {
+  margin: 65px auto;
+  width: 80px;
+}
+#main .stock-article .stock-date-time .digit {
+  display: inline-block;
+  background-color: rgba(51, 51, 51, 0.85);
+  font-size: 18px;
+  color: #fff;
+  margin-left: 1px;
+  padding: 1px 5px;
+}
+#main .stock-article .stock-date-time .digit:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#main .stock-article .stock-date-time .digit:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#main .stock-article .stock-article-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 10px;
+}
+#main .stock-article p {
+  font-size: 13px;
+  margin-left: 10px;
+  color: #777;
+}
 #main .stock-article .image-wrapper {
   position: relative;
 }
@@ -167,7 +206,7 @@ img {
   font-size: 12px;
 }
 #main .main-content-wrapper .row {
-  padding-bottom: 75px;
+  padding-bottom: 30px;
 }
 #main .main-content-wrapper .main-content-article {
   border-bottom: 1px solid #cfcfcf;
@@ -193,6 +232,9 @@ img {
 }
 #main .main-content-wrapper .orange {
   margin-bottom: 30px;
+}
+#main .main-content-wrapper .main-article-img img {
+  width: 100%;
 }
 #main .main-content-wrapper .main-article-description p {
   margin-bottom: 30px;
@@ -236,7 +278,7 @@ article ul li {
 .right-side-bar {
   background: #ebedeb;
   min-width: 200px;
-  height: 3000px;
+  min-height: 2000px;
   border-left: 1px solid #cfcfcf;
 }
 .right-side-bar .container {
