@@ -97,6 +97,23 @@ header {
         padding-top: 5px;
         min-width: 1000px;
 
+        .absolut-logo {
+            &:hover {
+                border-bottom: none;
+            }
+            a {
+                width: 78px;
+                height: 15px;
+                background-image: url(../img/absolut-logo.svg);
+                display: inline-block;
+                background-repeat: no-repeat;
+
+                &:hover {
+                    background-image: url(../img/absolut-logo-blue.svg);
+                }
+            }
+        }
+
         .special-offer {
             a {
                 color: @orange-theme;
@@ -171,6 +188,25 @@ img {
     .wrapper {
         max-width: 948px;
         margin: 0 auto;
+    }
+
+    .stock-article {
+
+
+
+        .image-wrapper {
+            position: relative;
+
+            .orange {
+                margin-bottom: 0;
+            }
+
+            .image-date {
+                position: absolute;
+                top: 10px;
+                right: 5px;
+            }
+        }
     }
 
     .main-content-wrapper {
@@ -296,6 +332,7 @@ article {
     .content {
         border-bottom: 1px solid #cfcfcf;
         margin-bottom: 15px;
+        padding: 20px 10px 20px 15px;
     }
 }
 
@@ -346,18 +383,27 @@ article {
 
         .h-bottom-line {
 
+            ul {
+                margin-left: 120px;
+
+                li {
+                    padding-right: 4px;
+                    padding-left: 4px;
+                }
+            }
+
             .site-logo {
                 width: 150px;
             }
 
+
             a {
-                font-size: 10px;
+                font-size: 12px;
             }
 
-          .h-ad-banner {
-            width: 200px;
-          }  
+            .h-ad-banner {
+                width: 200px;
+            }
         }
-
     }
 }
